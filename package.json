@@ -30,9 +30,11 @@
     "tslint-config-standard": "7.0.0",
     "typescript": "2.7.1"
   },
+  "peerDependencies": {
+    "graphql": "^0.12.3"
+    "graphql-tools": "^2.18.0",
+  },
   "dependencies": {
-    "graphql": "0.12.3",
-    "graphql-tools": "2.20.0",
     "iterall": "1.1.3"
   }
 }
